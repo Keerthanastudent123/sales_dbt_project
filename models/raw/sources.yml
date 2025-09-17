@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: demo_db
+    schema: raw
+    tables:
+      - name: customers
+      - name: lineitem
+      - name: orders
+      - name: market_segments
+      - name: nation
+      - name: part
+      - name: region
+      - name: supplier
