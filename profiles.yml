@@ -1,0 +1,23 @@
+my_snowflake_profile:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      account: binsiti-ww38385
+      user: KEERTHANA54
+      password: Keerthanamurali678
+      role: ACCOUNTADMIN
+      database: DEMO_DB
+      warehouse: COMPUTE_WH
+      schema: RAW
+      threads: 1
+    prod:
+      type: snowflake
+      account: binsiti-ww38385
+      user: KEERTHANA54
+      password: Keerthanamurali678
+      role: ACCOUNTADMIN
+      database: DEMO_DB
+      warehouse: COMPUTE_WH
+      schema: DBT_KM_RAW
+      threads: 2
