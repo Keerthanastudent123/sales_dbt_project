@@ -1,7 +1,7 @@
 my_snowflake_profile:
-  target: dev
+  target: Development
   outputs:
-    dev:
+    Development:
       type: snowflake
       account: binsiti-ww38385
       user: KEERTHANA54
