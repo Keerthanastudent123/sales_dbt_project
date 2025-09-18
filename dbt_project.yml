@@ -26,6 +26,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Here we override for specific models.
 models:
   my_new_project:
-    +schema: raw     # all models go into schema "raw"
+    +schema: "{{ target.schema }}"    # all models go into schema "raw"
     example:         # models/example/*
       +materialized: table
