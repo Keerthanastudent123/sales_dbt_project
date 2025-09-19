@@ -4,7 +4,6 @@ with line_items_cte as (
         l.L_PARTKEY,
         l.L_SUPPKEY,
         l.L_LINENUMBER,
-        l.L_QUANTITY,
         l.L_EXTENDEDPRICE,
         l.L_DISCOUNT,
         l.L_TAX,
